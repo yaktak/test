@@ -1,0 +1,9 @@
+body {
+  width: 100vw;
+}
+
+.square {
+  width: 50%;
+  padding-top: 50%;
+  background: red;
+}
