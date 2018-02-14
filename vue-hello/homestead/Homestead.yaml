@@ -1,0 +1,19 @@
+ip: 192.168.10.11
+memory: 1024
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/tateno/proj/test/vue-hello
+        to: /home/vagrant/code
+sites:
+    -
+        map: homestead.test
+        to: /home/vagrant/code/main/public
+databases:
+    - homestead
+name: vue-hello
+hostname: homestead
